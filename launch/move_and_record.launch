@@ -1,0 +1,5 @@
+<launch>
+    <node name="move" pkg="airsim_ros" type="move_drone.py" output="screen"/>
+    <node name="img_subscriber" pkg="airsim_ros" type="image_subscriber.py"/>
+    <node name="img_publisher" pkg="airsim_ros" type="image_publisher.py"/>
+</launch>
